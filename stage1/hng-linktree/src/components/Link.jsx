@@ -1,15 +1,15 @@
 import React from "react";
 
-const Link = ({ text, link }) => {
+const Link = ({ text, link, id }) => {
   return (
-    // <a href={link} className="w-full  bg-[#EAECF0] rounded-md">
-    //   <div className="w-full border bg-[#EAECF0] rounded-md">
-    //     <h1 className="py-6">{text}</h1>
-    //   </div>
-    // </a>
-
-    <div className="w-full border bg-[#EAECF0] rounded-md my-6">
-      <a href={link} className="w-full  bg-[#EAECF0] rounded-md">
+    <div className="w-full border hover:bg-[#D0D5DD] bg-[#F4F5F7] rounded-md my-6">
+      <a
+        target="_blank"
+        id={id}
+        href={link}
+        className="w-full  bg-[#EAECF0] rounded-md"
+        rel="noreferrer"
+      >
         <h1 className="py-6">{text}</h1>
       </a>
     </div>

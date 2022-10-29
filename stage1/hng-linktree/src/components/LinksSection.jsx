@@ -6,7 +6,7 @@ const LinksSection = () => {
   return (
     <section className="px-8">
       {links.map((link) => {
-        return <Link text={link.text} link={link.link} />;
+        return <Link text={link.text} link={link.link} id={link.id} />;
       })}
     </section>
   );

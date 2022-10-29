@@ -7,7 +7,7 @@ const SocialSection = () => {
       <a className="m-4" href="https://internship.zuri.team/hngi9">
         <img src={Slack} alt="" srcset="" />
       </a>
-      <a className="m-4" href="https://internship.zuri.team/hngi9">
+      <a className="m-4" href="https://github.com/treasure-praise">
         <img src={Github} alt="" srcset="" />
       </a>
     </div>

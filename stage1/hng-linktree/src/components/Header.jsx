@@ -1,14 +1,26 @@
 import Profile from "../assets/profile__img.svg";
+import Share from "../assets/share.svg";
 
 const Header = () => {
   return (
     <div className="mx-auto item-center">
       <div>
         <div>
-          <img className="mx-auto" src={Profile} alt="" srcset="" />
+          <img
+            id="profile_img"
+            className="mx-auto"
+            src={Profile}
+            alt=""
+            srcset=""
+          />
         </div>
-
+        <button className="absolute top-0 md:right-72 right-12">
+          <img src={Share} alt="share" id="share" />
+        </button>
         <p className="font-bold">Olatunbosun Treasure-Praise</p>
+        <h1 className="hidden" id="slack">
+          @Treasure
+        </h1>
       </div>
     </div>
   );

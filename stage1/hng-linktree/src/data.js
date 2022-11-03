@@ -29,6 +29,11 @@ const links = [
     link: "https://books.zuri.team/design-rules",
     id: "book__design",
   },
+  {
+    text: "Contact Me",
+    link: "/contact",
+    id: "contact",
+  },
 ];
 
 export default links;

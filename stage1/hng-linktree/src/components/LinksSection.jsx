@@ -1,12 +1,20 @@
 import React from "react";
-import Link from "./Link";
+import NavLink from "./NavLink";
 import links from "../data.js";
 
 const LinksSection = () => {
   return (
-    <section className="px-8">
+    <section className="px-8 text-center">
       {links.map((link) => {
-        return <Link text={link.text} link={link.link} id={link.id} />;
+        return (
+          <NavLink
+            key={link.id}
+            text={link.text}
+            link={link.link}
+            id={link.id}
+            routerLink={link.routerLink}
+          />
+        );
       })}
     </section>
   );

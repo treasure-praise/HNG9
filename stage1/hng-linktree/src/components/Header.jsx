@@ -6,18 +6,12 @@ const Header = () => {
     <div className="mx-auto item-center">
       <div>
         <div>
-          <img
-            id="profile_img"
-            className="mx-auto"
-            src={Profile}
-            alt=""
-            srcset=""
-          />
+          <img id="profile_img" className="mx-auto" src={Profile} alt="" />
         </div>
         <button className="absolute top-0 md:right-72 right-12">
           <img src={Share} alt="share" id="share" />
         </button>
-        <p className="font-bold">Olatunbosun Treasure-Praise</p>
+        <p className="font-bold text-center">Olatunbosun Treasure-Praise</p>
         <h1 className="hidden" id="slack">
           @Treasure
         </h1>

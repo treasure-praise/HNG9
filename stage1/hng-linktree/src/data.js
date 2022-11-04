@@ -33,6 +33,7 @@ const links = [
     text: "Contact Me",
     link: "/contact",
     id: "contact",
+    routerLink: true,
   },
 ];
 

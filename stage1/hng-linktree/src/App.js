@@ -8,9 +8,9 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <LinksSection />
-      <SocialSection /> */}
+      <SocialSection />
       <Contact />
       <Footer />
     </div>

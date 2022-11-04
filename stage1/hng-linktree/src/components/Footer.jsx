@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <footer className="md:flex justify-between border-t-2 mx-8">
       <a className="m-4" href="https://internship.zuri.team/hngi9">
-        <img src={ZuriLogo} alt="" srcset="" />
+        <img src={ZuriLogo} alt="" />
       </a>
       <p className="text-left my-4">HNG Internship 9 Frontend Task</p>
       <a className="m-4" href="https://internship.zuri.team/hngi9">
-        <img src={I4G} alt="" srcset="" />
+        <img src={I4G} alt="" />
       </a>
     </footer>
   );

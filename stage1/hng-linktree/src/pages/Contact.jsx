@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-5/6 mt-16 md:w-1/2 mx-auto">
+    <div className="w-5/6 my-16 md:w-1/2 mx-auto">
       <h1 className="text-3xl mb-4">Contact Me</h1>
       <p className=" mb-12">
         Hi there, contact me to ask me about anything you have in mind
@@ -18,7 +18,7 @@ const Contact = () => {
                 className="border-[#D0D5DD] border rounded-lg px-3 py-2 mb-6"
                 type="text"
                 name="firstName"
-                id="firstName"
+                id="first_name"
                 placeholder="Enter your first name"
               />
             </div>
@@ -30,8 +30,8 @@ const Contact = () => {
               <input
                 className="border-[#D0D5DD] border rounded-lg px-3 py-2 mb-6"
                 type="text"
-                name="laststName"
-                id="laststName"
+                name="lastName"
+                id="last_name"
                 placeholder="Enter your last name"
               />
             </div>
@@ -53,8 +53,8 @@ const Contact = () => {
           </label>
           <textarea
             className="border-[#D0D5DD] border rounded-lg px-3 py-2 mb-6"
-            name=""
-            id=""
+            name="message"
+            id="message"
             cols="30"
             rows="10"
             placeholder="Send me a message and I'll reply you as soon as possible..."
@@ -71,6 +71,7 @@ const Contact = () => {
           <button
             className="bg-[#1570EF] font-bold text-white rounded-lg py-3"
             type="submit"
+            id="btn__submit"
           >
             Send Message
           </button>

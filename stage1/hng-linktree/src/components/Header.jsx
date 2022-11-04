@@ -6,7 +6,12 @@ const Header = () => {
     <div className="mx-auto item-center">
       <div>
         <div>
-          <img id="profile_img" className="mx-auto" src={Profile} alt="" />
+          <img
+            id="profile_img"
+            className="mx-auto"
+            src={Profile}
+            alt="profile"
+          />
         </div>
         <button className="absolute top-0 md:right-72 right-12">
           <img src={Share} alt="share" id="share" />

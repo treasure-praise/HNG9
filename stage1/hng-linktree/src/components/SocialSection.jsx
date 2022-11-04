@@ -5,10 +5,10 @@ const SocialSection = () => {
   return (
     <div className="flex justify-center my-8">
       <a className="m-4" href="https://internship.zuri.team/hngi9">
-        <img src={Slack} alt="" />
+        <img src={Slack} alt="Slack" />
       </a>
       <a className="m-4" href="https://github.com/treasure-praise">
-        <img src={Github} alt="" />
+        <img src={Github} alt="Github" />
       </a>
     </div>
   );
